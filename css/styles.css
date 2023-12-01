@@ -1,0 +1,137 @@
+:root {
+  --iris: #4d5ae5;
+  --navyblue: #2e2f42;
+  --slate: #434455;
+  --white: #fff;
+  --ocean: #404bbf;
+  --cloud: #f4f4fd;
+}
+
+body {
+  font-family: Raleway, sans-serif;
+  color: black;
+}
+
+a.website:hover {
+  background-color: rgb(135, 196, 250);
+}
+
+a.index:hover {
+  background-color: rgb(135, 196, 250);
+}
+
+a.portfolio:hover {
+  background-color: rgb(135, 196, 250);
+}
+
+a.contacts:hover {
+  background-color: rgb(135, 196, 250);
+}
+
+button:hover {
+  background-color: hotpink;
+}
+
+a.mail:hover {
+  color: green;
+}
+
+a.tel:hover {
+  color: green;
+}
+
+.web {
+  font-size: 18px;
+}
+
+.web {
+  color: var(--iris);
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 21px;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.studio {
+  color: var(--navyblue);
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 21px;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.index,
+.portfolio,
+.contacts {
+  color: var(--navyblue);
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+  letter-spacing: 0.32px;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+ul.images,
+ul.contacts {
+  list-style-type: none;
+}
+
+ul.contacts {
+  color: var(--slate);
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0.32px;
+}
+
+button.all-services {
+  color: var(--white);
+  text-align: center;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+  background: var(--ocean);
+}
+
+button.all-services:hover {
+  background-color: var(--cloud);
+  color: var(--iris);
+}
+
+button.service-type {
+  color: var(--iris);
+  text-align: center;
+
+  /* Button Text */
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+  background-color: var(--cloud);
+}
+
+button.service-type:hover {
+  background-color: var(--iris);
+  color: var(--white);
+}
+
+button {
+  cursor: pointer;
+}
