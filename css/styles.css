@@ -12,63 +12,7 @@ body {
   color: black;
 }
 
-a.website:hover {
-  background-color: rgb(135, 196, 250);
-}
-
-a.index:hover {
-  background-color: rgb(135, 196, 250);
-}
-
-a.portfolio:hover {
-  background-color: rgb(135, 196, 250);
-}
-
-a.contacts:hover {
-  background-color: rgb(135, 196, 250);
-}
-
-button:hover {
-  background-color: hotpink;
-}
-
-a.mail:hover {
-  color: green;
-}
-
-a.tel:hover {
-  color: green;
-}
-
-.web {
-  font-size: 18px;
-}
-
-.web {
-  color: var(--iris);
-  font-family: Raleway;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 800;
-  line-height: 21px;
-  letter-spacing: 0.54px;
-  text-transform: uppercase;
-  text-decoration: none;
-}
-
-.studio {
-  color: var(--navyblue);
-  font-family: Raleway;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 800;
-  line-height: 21px;
-  letter-spacing: 0.54px;
-  text-transform: uppercase;
-  font-size: 18px;
-  text-decoration: none;
-}
-
+/* Header */
 .index,
 .portfolio,
 .contacts {
@@ -83,19 +27,58 @@ a.tel:hover {
   list-style-type: none;
 }
 
-ul.images,
-ul.contacts {
-  list-style-type: none;
+a.index:hover,
+a.portfolio:hover,
+a.contacts:hover {
+  color: var(--iris);
 }
 
-ul.contacts {
+/* Contacts */
+a.mail,
+a.tel {
   color: var(--slate);
   font-family: Roboto;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: 150%;
-  letter-spacing: 0.32px;
+}
+
+a.mail:hover,
+a.tel:hover {
+  color: var(--iris);
+}
+
+.web,
+.footer-web {
+  color: var(--iris);
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 21px;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.studio,
+.footer-studio {
+  color: var(--navyblue);
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 116.667%;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+ul.images,
+ul.contacts {
+  list-style-type: none;
 }
 
 button.all-services {
@@ -134,4 +117,39 @@ button.service-type:hover {
 
 button {
   cursor: pointer;
+}
+
+/* Header 3 */
+.service-header {
+  color: var(--navyblue);
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%;
+}
+
+/* Paragraph */
+.service-type {
+  color: var(--slate);
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.32px;
+}
+
+/* Footer */
+.footer-studio {
+  color: var(--cloud);
+}
+
+p.footer {
+  color: var(--cloud);
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 150%;
+}
+
+footer {
+  background-color: var(--navyblue);
 }
