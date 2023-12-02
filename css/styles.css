@@ -14,7 +14,7 @@ body {
 }
 
 /* Header */
-.list-menu {
+.link-menu {
   color: var(--navyblue);
   font-family: Roboto;
   font-size: 16px;
@@ -26,15 +26,15 @@ body {
   line-height: 1.5;
 }
 
-.list-menu:hover {
+.link-menu:hover {
   color: var(--ocean);
 }
 
-.list-menu:focus {
+.link-menu:focus {
   color: var(--ocean);
 }
 /* Contacts */
-.list-contact {
+.link-contact {
   color: var(--slate);
   font-family: Roboto;
   font-size: 16px;
@@ -42,13 +42,14 @@ body {
   font-weight: 400;
   text-decoration: none;
   letter-spacing: 0.02em;
+  line-height: 1.5;
 }
 
-.list-contact:hover {
+.link-contact:hover {
   color: var(--ocean);
 }
 
-.list-contact:focus {
+.link-contact:focus {
   color: var(--ocean);
 }
 
@@ -84,44 +85,33 @@ section.online {
   background-color: var(--navyblue);
 }
 
-ul.images,
+ul.list-images,
 ul.list,
 ul.lists {
   list-style-type: none;
 }
 
-button.all-services {
-  color: var(--white);
-  font-family: Roboto;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 500;
-  background: var(--ocean);
-}
-
-button.all-services:hover {
-  background-color: var(--cloud);
-  color: var(--iris);
-}
-
+/* Button Text */
 button.service-type {
   color: var(--iris);
-
-  /* Button Text */
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
   background-color: var(--cloud);
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
 }
 
 button.service-type:hover {
-  background-color: var(--iris);
+  background-color: var(--ocean);
   color: var(--white);
 }
 
-button {
-  cursor: pointer;
+button.service-type:focus {
+  background-color: var(--ocean);
+  color: var(--white);
 }
 
 /* Header 3 */
@@ -132,14 +122,22 @@ button {
   font-style: normal;
   font-weight: 500;
   letter-spacing: 0.02em;
+  line-height: 1.2;
+}
+
+/* Images */
+.link-project {
+  list-style-type: none;
+  text-decoration: none;
 }
 
 /* Paragraph */
-.service-type {
+.project-type {
   color: var(--slate);
   font-family: Roboto;
   font-size: 16px;
   letter-spacing: 0.02em;
+  line-height: 1.5;
 }
 
 /* Footer */
@@ -154,7 +152,7 @@ p.footer {
   letter-spacing: 0.02em;
 }
 
-footer {
+.footer {
   background-color: var(--navyblue);
 }
 
