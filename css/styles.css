@@ -1,160 +1,243 @@
 :root {
+  --slate: #434455;
   --iris: #4d5ae5;
   --navyblue: #2e2f42;
-  --slate: #434455;
   --white: #ffffff;
-  --ocean: #404bbf;
   --cloud: #f4f4fd;
+  --cornflower: #e7e9fc;
+  --cloud: #F4F4FD;
+  --ocean: #404BBF;
 }
 
 body {
   font-family: 'Roboto', sans-serif;
   color: var(--slate);
-  background-color: white;
-}
-
-/* Header */
-.web {
-  color: var(--iris);
-  font-family: 'Raleway', sans-serif;
-  font-size: 18px;
-  font-weight: 800;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-}
-
-/* Navigation */
-.link {
-  text-decoration: none;
-}
-
-.web-logo {
-  color: var(--navyblue);
-}
-
-.list {
-  list-style: none;
-}
-
-.list-menu > .link {
-  color: var(--navyblue);
   font-size: 16px;
-  font-weight: 500;
-  letter-spacing: 0.02em;
-  line-height: 1.5;
-}
-
-li > .link:hover,
-li > .link:focus {
-  color: var(--ocean);
-}
-
-/* Contacts */
-.contacts {
-  font-style: normal;
-}
-
-.contact-list > .link {
-  color: var(--slate);
-  font-size: 16px;
-  letter-spacing: 0.02em;
-  line-height: 1.5;
-}
-
-/* First Section */
-.hero-section {
-  background-color: var(--navyblue);
-}
-
-.hero {
-  color: var(--white);
-  font-size: 56px;
-  letter-spacing: 0.02em;
-  line-height: 1.07;
-  text-align: center;
-}
-
-.order {
-  background-color: var(--iris);
-  font-family: inherit;
-  font-size: 16px;
-  letter-spacing: 0.04em;
-  font-weight: 500;
-  line-height: 1.5;
-  color: var(--white);
-  cursor: pointer;
-}
-
-.order:hover,
-.order:focus {
-  background-color: var(--ocean);
-}
-
-/* Second Section */
-.list-header {
-  color: var(--navyblue);
-  font-size: 20px;
-  letter-spacing: 0.02em;
-  font-weight: 500;
-  line-height: 1.2;
-}
-
-.list-description {
-  color: var(--slate);
-  font-size: 16px;
-  letter-spacing: 0.02em;
-  line-height: 1.5;
-}
-
-/* Third Section */
-.header-title {
-  color: var(--navyblue);
-  font-size: 36px;
-  line-height: 1.11;
-  letter-spacing: 0.02em;
-  text-align: center;
-  text-transform: capitalize;
-}
-
-/* Fourth */
-.team-section {
-  background-color: var(--cloud);
-}
-
-.list .images {
   background-color: var(--white);
 }
 
-/* Footer Section */
-.footer {
-  background-color: var(--navyblue);
-}
-
-.footer-studio {
-  color: var(--cloud);
-}
-
-.footer-description {
-  color: var(--cloud);
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-}
-
-/* PORTFOLIO */
-.button-service {
+/* Index Logo */
+.header-logo {
   color: var(--iris);
-  font-family: inherit;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  background-color: var(--cloud);
-  cursor: pointer;
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 116.667%;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
 }
 
-.button-service:hover,
-.button-service:focus {
-  color: var(--white);
-  background-color: var(--ocean);
+.header-logo-text {
+  color: var(--navyblue);
 }
+
+.header-logo,
+.header-logo-text,
+.footer-logo,
+.footer-logo-text {
+    text-decoration: none;
+}
+
+.header,
+.features,
+.task,
+.main {
+    background-color: var(--white);
+}
+/* Index - Navigation */
+.list-item-link {
+color:var(--navyblue);
+font-weight: 500;
+line-height: 150%
+letter-spacing: 0.32px;
+}
+
+.list-item-link,
+.address-link {
+    text-decoration: none;
+}
+
+.list,
+.address-list-item,
+.features-list-item,
+.task-list-item,
+.team-list-item,
+.btn-list-item,
+.project-list-item {
+    list-style: none;
+}
+
+.list-item-link:hover,
+.list-item-link:focus,
+.address-link:hover,
+.address-link:focus {
+    color:var(--ocean);
+}
+
+
+/* Index - Contacts */
+.address-link {
+color: var(--slate);
+font-size: 16px;
+font-style: normal;
+line-height: 150%
+letter-spacing: 0.32px;
+}
+
+/* Index - Hero */
+.title {
+    background-color: var(--navyblue);
+   
+}
+
+.title-hero {
+color: var(--white);
+text-align: center;
+font-size: 56px;
+font-weight: 700;
+line-height: 107.143%
+letter-spacing: 1.12px;
+}
+
+.title-button { 
+border-radius: 4px;
+background-color: var(--iris);
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+
+display: inline-flex;
+padding: 16px 32px;
+align-items: flex-start;
+gap: 10px;
+}
+
+.title-button {
+color: var(--white);
+font-weight: 500;
+line-height: 150%
+letter-spacing: 0.64px;
+}
+
+.title-button:hover {
+    background-color: var(--ocean);
+}
+
+/* Index - Features */
+.features-subtitle {
+color:var(--navyblue);
+font-size: 20px;
+font-weight: 500;
+line-height: 120%
+letter-spacing: 0.4px;
+
+width: 264px;
+}
+
+.features-text {
+color: var(--slate);
+font-weight: 400;
+line-height: 150%
+letter-spacing: 0.32px;
+
+width: 264px;
+}
+
+/* Index - What Are We Doing */
+.task-header {
+color:var(--navyblue);
+text-align: center;
+font-size: 36px;
+font-weight: 700;
+line-height: 111.111%;
+letter-spacing: 0.72px;
+text-transform: capitalize;
+}
+
+/* Index - Our Team */
+.team-header {
+color:var(--navyblue);
+text-align: center;
+font-size: 36px;
+font-weight: 700;
+line-height: 111.111%
+letter-spacing: 0.72px;
+text-transform: capitalize;
+}
+
+.team-subheader {
+color:var(--navyblue);
+text-align: center;
+font-size: 20px;
+font-weight: 500;
+line-height: 120%;
+letter-spacing: 0.4px;
+}
+
+.team-text {
+text-align: center;
+line-height: 150%
+letter-spacing: 0.32px;
+}
+
+.team {
+background-color: var(--cloud);
+}
+
+.team-list-item {
+    background-color: var(--white);
+}
+
+
+
+/* Index - Footer */
+.footer-logo {
+color:var(--iris);
+font-family: Raleway;
+font-size: 18px;
+font-weight: 800;
+line-height: 116.667%
+letter-spacing: 0.54px;
+text-transform: uppercase;
+}
+
+.footer-logo-text {
+color: var(--cloud);
+font-family: Raleway;
+font-size: 18px;
+font-weight: 800;
+line-height: 116.667%
+letter-spacing: 0.54px;
+text-transform: uppercase;
+}
+
+.footer-text {
+color:var(--cloud);
+line-height: 150%
+letter-spacing: 0.32px;
+}
+
+.footer {
+    background-color: var(--navyblue);
+}
+
+/* Portfolio - Main Buttons  */
+.btn-text {
+color:var(--iris);
+font-weight: 500;
+line-height: 150%;
+letter-spacing: 0.64px;
+background-color: var(--cloud);
+}
+
+.btn-text:hover {
+color:var(--cloud);
+background-color: var(--iris);
+}
+
+.btn-text {
+    cursor: pointer;
+}
+
+
+
+
+
