@@ -192,13 +192,16 @@ li > .link:focus {
   color: var(--iris);
   font-weight: 500;
   line-height: 150%;
-  letter-spacing: 0.64px;
+  letter-spacing: 0.04em;
   background-color: var(--cloud);
+  font-family: inherit;
+  font-size: inherit;
 }
 
-.btn-text:hover {
-  color: var(--cloud);
-  background-color: var(--iris);
+.btn-text:hover,
+.btn-text:focus {
+  color: var(--white);
+  background-color: var(--ocean);
 }
 
 .btn-text {
