@@ -58,23 +58,21 @@ li > .link:hover,
 li > .link:focus {
   color: var(--ocean);
 }
-.address-link {
-  text-decoration: none;
+
+.address-list-item > .address {
+  color: var(--slate);
+  font-style: normal;
+  line-height: 150%;
+  letter-spacing: 0.32px;
 }
 
 .list,
-.address-list-item,
 .features-list-item,
 .task-list-item,
 .team-list-item,
 .btn-list-item,
 .project-list-item {
   list-style: none;
-}
-
-.address-link:hover,
-.address-link:focus {
-  color: var(--ocean);
 }
 
 /* Index - Contacts */
