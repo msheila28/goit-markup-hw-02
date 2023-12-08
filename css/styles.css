@@ -61,9 +61,12 @@ li > .link:focus {
 
 .address-list-item > .address {
   color: var(--slate);
-  font-style: normal;
   line-height: 150%;
   letter-spacing: 0.32px;
+}
+
+.address {
+  font-style: normal;
 }
 
 .list,
