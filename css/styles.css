@@ -34,18 +34,6 @@ body {
   color: var(--navyblue);
 }
 
-.header-logo-text,
-.footer-logo,
-.footer-logo-text {
-  text-decoration: none;
-}
-
-.header,
-.features,
-.task,
-.main {
-  background-color: var(--white);
-}
 /* Index - Navigation */
 .list-item > .menu {
   color: var(--navyblue);
@@ -182,34 +170,21 @@ li > .link:focus {
 }
 
 /* Index - Footer */
-.footer-logo {
-  color: var(--iris);
-  font-family: 'Raleway', sans-serif;
-  font-size: 18px;
-  font-weight: 800;
-  line-height: 116.667%;
-  letter-spacing: 0.54px;
-  text-transform: uppercase;
+.footer {
+  background-color: var(--navyblue);
 }
 
-.footer-logo-text {
+.footer-logo {
   color: var(--cloud);
-  font-family: 'Raleway', sans-serif;
-  font-size: 18px;
-  font-weight: 800;
-  line-height: 116.667%;
-  letter-spacing: 0.54px;
-  text-transform: uppercase;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0.32px;
 }
 
 .footer-text {
   color: var(--cloud);
   line-height: 150%;
   letter-spacing: 0.32px;
-}
-
-.footer {
-  background-color: var(--navyblue);
 }
 
 /* Portfolio - Main Buttons  */
