@@ -17,7 +17,7 @@ body {
 }
 
 /* Index Logo */
-.link {
+.logo {
   color: var(--iris);
   font-family: 'Raleway', sans-serif;
   font-size: 18px;
@@ -25,9 +25,11 @@ body {
   line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
-  text-decoration: none;
 }
 
+.link {
+  text-decoration: none;
+}
 .header-logo-text {
   color: var(--navyblue);
 }
@@ -45,14 +47,17 @@ body {
   background-color: var(--white);
 }
 /* Index - Navigation */
-.list-item-link {
+.list-item > .menu {
   color: var(--navyblue);
   font-weight: 500;
   line-height: 150%;
   letter-spacing: 0.32px;
 }
 
-.list-item-link,
+li > .link:hover,
+li > .link:focus {
+  color: var(--ocean);
+}
 .address-link {
   text-decoration: none;
 }
@@ -67,8 +72,6 @@ body {
   list-style: none;
 }
 
-.list-item-link:hover,
-.list-item-link:focus,
 .address-link:hover,
 .address-link:focus {
   color: var(--ocean);
