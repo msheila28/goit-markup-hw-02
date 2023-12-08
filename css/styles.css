@@ -101,16 +101,18 @@ li > .link:focus {
   padding: 16px 32px;
   align-items: flex-start;
   gap: 10px;
-}
 
-.title-button {
   color: var(--white);
   font-weight: 500;
   line-height: 150%;
-  letter-spacing: 0.64px;
+  letter-spacing: 0.04em;
+  font-family: inherit;
+  font-size: inherit;
+  cursor: pointer;
 }
 
-.title-button:hover {
+.title-button:hover,
+.title-button:focus {
   background-color: var(--ocean);
 }
 
