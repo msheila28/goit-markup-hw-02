@@ -17,7 +17,7 @@ body {
 }
 
 /* Index Logo */
-.header-logo-link {
+.link {
   color: var(--iris);
   font-family: 'Raleway', sans-serif;
   font-size: 18px;
@@ -25,13 +25,13 @@ body {
   line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
+  text-decoration: none;
 }
 
 .header-logo-text {
   color: var(--navyblue);
 }
 
-.header-logo,
 .header-logo-text,
 .footer-logo,
 .footer-logo-text {
