@@ -196,3 +196,18 @@ li > .link:focus {
 .btn-text {
   cursor: pointer;
 }
+
+/* Projects */
+.project-header {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--navyblue);
+}
+
+.project-text {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slate);
+}
